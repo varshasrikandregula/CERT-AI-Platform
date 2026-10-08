@@ -1,0 +1,42 @@
+Sysmon
+Zeek
+Suricata
+      │
+      ▼
+  Fluent Bit
+      │
+      ▼
+     Kafka
+      │
+      ▼
+ OCSF Normalizer
+      │
+      ▼
+  Enrichment Engine
+      │
+      ▼
+  Detection Engine
+ ┌────┼────┐
+ │    │    │
+Tier0 Sigma ML
+ └────┼────┘
+      ▼
+Correlation Engine
+      ▼
+ Risk Scoring
+      ▼
+ Incident Manager
+      ▼
+AI Triage
+      ▼
+AI Investigator
+      ▼
+AI Reporter
+      ▼
+SOAR
+      ▼
+Safety Gate
+      ▼
+Analyst Approval
+      ▼
+Execution
